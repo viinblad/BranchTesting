@@ -11,4 +11,6 @@ public abstract class Animal {
 
     // Abstract metode, der implementeres i subclasses
     public abstract void makeSound();
+
+    public abstract boolean eat(String foodType);
 }
