@@ -13,4 +13,12 @@ public class Cat extends Animal {
         System.out.println("Cat eats " + foodType);
         return true;
     }
+    @Override
+    public void showMood(boolean isHappy) {
+        if (isHappy) {
+            System.out.println("Cat is purring.");
+        } else {
+            System.out.println("Cat is hissing.");
+        }
+    }
 }
